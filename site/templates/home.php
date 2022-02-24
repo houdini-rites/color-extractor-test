@@ -1,0 +1,1 @@
+<?php go('color-extractor') ?>

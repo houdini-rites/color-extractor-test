@@ -1,0 +1,59 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+    object-fit: cover;
+}
+
+
+
+:root {
+    
+    --margin-left: 5vw;
+    --margin-right: 5vw;
+
+    --margin-top: 1rem;
+    --margin-bottom: 1rem;
+
+}
+
+/* header */
+
+header a:not(:hover),
+footer a:not(:hover) {
+	text-decoration: none;
+}
+
+.main-navigation {
+	display: flex;
+}
+
+.main-navigation {
+	gap: 0.75rem;	
+}
+
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+
+
+/* resets */
+
+/*body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+*/

@@ -1,0 +1,16 @@
+title: Extractor
+
+tabs:
+
+  media:
+    label: Media
+    icon: folder
+
+    sections:
+      files:
+        type: files
+        layout: cards
+        image:
+          cover: true
+        template: image  
+        max: 1

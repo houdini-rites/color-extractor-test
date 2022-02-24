@@ -1,0 +1,31 @@
+.image {
+	max-width: 300px;
+}
+
+.color-block {
+	background-color: var(--color); 
+}
+
+.color-block:not(:first-of-type) {
+	margin-top: 1.5rem;
+}
+
+.color-block {
+	height: 100px; 
+	width: 200px; 
+	padding: 1rem;
+}
+
+.content {
+	display: flex;
+	flex-flow: row;
+	gap: 2rem;
+}
+
+.dump {
+	margin-left: 5rem;
+}
+
+.dump pre {
+	margin-top: 0;
+}

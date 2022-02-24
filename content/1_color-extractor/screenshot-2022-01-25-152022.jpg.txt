@@ -1,0 +1,17 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Sort: 1
+
+----
+
+Color: #5F99A5,#7B8992
+
+----
+
+Template: image
